@@ -2,8 +2,8 @@ import "./contact.css";
 import Phone from "../../assets/phone.png";
 import Email from "../../assets/email.png";
 import Address from "../../assets/address.png";
-import { useContext, useRef, useState } from "react";
-import emailjs from "emailjs-com";
+import React, { useContext, useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import { ThemeContext } from "../../context";
 
 const Contact = () => {
@@ -14,12 +14,13 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     emailjs
       .sendForm(
-        "service_rrvnzco",
-        "template_3v5nih4",
+        "service_x1w91j5",
+        "template_kkus7ym",
         formRef.current,
-        "user_DrriDPTGKO2Zj4RDXCA6W"
+        "INpQR8n5dCq0bRSe3"
       )
       .then(
         (result) => {
@@ -56,7 +57,7 @@ const Contact = () => {
         <div className="c-right">
           <p className="c-desc">
             <b>What’s your story?</b> Get in touch. Always available for
-            freelancing if the right project comes along. me.
+            freelancing if the right project comes along.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />

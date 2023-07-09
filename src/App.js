@@ -3,6 +3,8 @@ import About from "./components/about/about";
 import Intro from "./components/intro/intro";
 import Contact from "./components/contact/contact";
 import ProjectList from "./components/projectList/projectList";
+import Toggle from "./components/toggle/toggle";
+import Skills from "./components/skills/skills";
 import { ThemeContext } from "./context";
 
 const App = () => {
@@ -16,12 +18,14 @@ const App = () => {
         color: darkMode ? "white" : "black",
       }}
     >
-      <Intro />
+      <Toggle />
+      <Intro/>
       <About />
+      <Skills />
       <ProjectList />
       <Contact />
     </div>
   );
 };
 
-export default App;
+export default App

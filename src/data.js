@@ -1,7 +1,7 @@
 export const projects = [
     {
       id: 1,
-      img: "",
+      img: "../assets/project1.png",
       link: "http://lama.dev",
     },
     {
