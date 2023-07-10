@@ -6,7 +6,7 @@
   .c-bg {
     width: 20px;
     height: 100%;
-    background-color: #b35253;
+    background-color: #9392c7;
     position: absolute;
   }
   
@@ -74,7 +74,7 @@
   button {
     border: none;
     padding: 15px;
-    background-color: #b35253;
+    background-color: #9392c7;
     color: white;
     font-weight: 500;
     cursor: pointer;

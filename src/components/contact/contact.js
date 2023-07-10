@@ -50,7 +50,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />
-              123 ABC Road
+              Richmond, VA 23173
             </div>
           </div>
         </div>
