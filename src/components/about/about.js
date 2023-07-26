@@ -7,7 +7,7 @@ const About = () => {
         <div className="a-card bg"></div>
         <div className="a-card">
           <img
-            src="https://i.pinimg.com/originals/b4/74/5a/b4745a6b960db65d773adc2bd47d7c10.jpg"
+            src="https://i.ibb.co/N65RwJs/000004.jpg"
             alt=""
             className="a-img"
           />
@@ -15,21 +15,16 @@ const About = () => {
       </div>
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
-        <p className="a-sub">
-          Lorem ipsum
+        <p className="a-desc">
+          As a rising sophomore pursuing a dual major in Computer Science and Finance, I am deeply passionate about the transformative potential of technology and finance. My interests lie at the intersection of three dynamic fields: blockchain technology, data engineering, and fintech solutions.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
-        </p>
+        With a solid foundation in programming languages and data analysis, I am eager to explore the vast possibilities of blockchain technology. Its decentralized nature and ability to revolutionize industries like finance and supply chain have captivated me. I continuously hone my technical skills, driven by the desire to contribute to this groundbreaking domain.</p>
         <div className="a-award">
           <div className="a-award-texts">
-            <h4 className="a-award-title">Some Awards</h4>
+            <h4 className="a-award-title">Involvements</h4>
             <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+              University of Richmond ICPC Team Member, Girls Who Code, Association of Computing Machinery
             </p>
           </div>
         </div>

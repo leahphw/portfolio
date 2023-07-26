@@ -6,10 +6,9 @@ const ProjectList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Learn & Create</h1>
+        <h1 className="pl-title">Projects</h1>
         <p className="pl-desc">
-          Beautiful homes, stunning portfolio styles & a whole lot more awaits
-          inside.
+          Where I put my learnings into practice
         </p>
       </div>
       <div className="pl-list">

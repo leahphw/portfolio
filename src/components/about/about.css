@@ -46,6 +46,7 @@
   
   .a-title {
     font-weight: 400;
+    padding-bottom: 30px;
   }
   
   .a-sub {
@@ -54,6 +55,9 @@
   
   .a-desc{
       font-weight: 300;
+      padding-right: 50px;
+      padding-bottom: 30px;
+      text-align: justify;
   }
   
   .a-award{
