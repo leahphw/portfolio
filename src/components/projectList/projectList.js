@@ -8,12 +8,12 @@ const ProjectList = () => {
       <div className="pl-texts">
         <h1 className="pl-title">Projects</h1>
         <p className="pl-desc">
-          Where I put my learnings into practice
+          Where I put my learnings into practice. Click on each project to see more details.
         </p>
       </div>
       <div className="pl-list">
         {projects.map((item) => (
-          <Project key={item.id} img={item.img} link={item.link} />
+          <Project key={item.id} img={item.img} link={item.link}/>
         ))}
       </div>
     </div>
