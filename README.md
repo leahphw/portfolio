@@ -5,7 +5,7 @@
 ## 📑 Description
 This repository contains my personal web portfolio, showcasing my projects, skills, and experiences as a web developer. The portfolio is built using React, a popular JavaScript library for building user interfaces. It is designed to highlight my expertise, provide insight into my coding style, and offer a glimpse into my passion for creating web applications.
 
-The portfolio is deployed and can be accessed at [leahlearns.com](leahlearns.com). It is built using modern web technologies, ensuring it is responsive and accessible across various devices and screen sizes.
+The portfolio is deployed and can be accessed [here](https://leahlearns.com/). It is built using modern web technologies, ensuring it is responsive and accessible across various devices and screen sizes.
 
 ## 🌐 Project Showcase
 The portfolio provides an interactive display of my completed projects, including descriptions, images, and live demos where applicable.
